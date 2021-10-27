@@ -1,0 +1,67 @@
+.container {
+  /* position: relative; */
+  display: block;
+  justify-content: center;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: rgb(182, 161, 161);
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+.button {
+  background: #f69a73;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+.button:hover {
+  background: rgb(65, 54, 54);
+  color: #f69a73;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__input {
+  border-radius: 5px;
+  height: 25px;
+  width: 280px;
+}
+.form__lable {
+  margin-bottom: 8px;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+.contact-list__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+}
+.title-text {
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 22px;
+  color: #da2e2e;
+  font-weight: normal;
+  text-align: center;
+}
+.filter-container {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
